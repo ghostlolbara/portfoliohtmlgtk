@@ -1,1 +1,438 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="section-content">
+            <h1>Welcome to My Professional Portfolio</h1>
+            <p>Hi, I'm Tiyash Kumar Ghosh, a passionate web developer specializing in front-end and full-stack development. Explore my work and let's build something amazing together!</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section-content">
+            <h1>About Me</h1>
+            <p>I'm a web developer with over 5 years of experience. I focus on delivering responsive and accessible websites, and I’m always up for new challenges. My passion lies in building interactive and user-friendly websites and applications.</p>
+            <div class="bio">
+                <img src="images/profile.jpg" alt="Profile Picture">
+                <div>
+                    <p>Location: kolkata</p>
+                    <p>Languages: English</p>
+                    <p>Contact: tiyashkumarghosh1@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-content">
+            <h1>My Skills</h1>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <h3>HTML5 & CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>React.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="section-content">
+            <h1>My Projects</h1>
+            <div class="projects-container">
+                <div class="project-item">
+                    <h3>Project 1: E-commerce Web App</h3>
+                    <p>Developed an e-commerce platform using React, Node.js, and MongoDB. It has payment integration, user authentication, and a robust admin dashboard.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2: Social Media Platform</h3>
+                    <p>Built a social media platform where users can post, comment, like, and connect with friends. The project utilizes React and Firebase.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="section-content">
+            <h1>Blog</h1>
+            <p>Check out my latest blog posts on web development, programming tips, and industry trends. I'm passionate about sharing my knowledge with others!</p>
+            <a href="https://yourbloglink.com" target="_blank">Visit My Blog</a>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="section-content">
+            <h1>Experience</h1>
+            <div class="experience-item">
+                <h3>Web Developer at XYZ Corp</h3>
+                <p>2018 - Present: Lead web developer responsible for designing, developing, and maintaining company websites and web applications.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Front-End Developer at ABC Ltd</h3>
+                <p>2016 - 2018: Focused on building interactive front-end interfaces using React and other JavaScript frameworks.</p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="section-content">
+            <h1>Client Testimonials</h1>
+            <div class="testimonial-item">
+                <p>"Tiyash Kumar Ghosh is an amazing developer. He helped us build a fantastic website that meets all our business needs."</p>
+                <p><strong>- Client 1</strong></p>
+            </div>
+            <div class="testimonial-item">
+                <p>"Working with Tiyash Kumar Ghosh was a pleasure. His attention to detail and coding skills are unmatched!"</p>
+                <p><strong>- Client 2</strong></p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="section-content">
+            <h1>Services</h1>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>UI/UX Design</li>
+                <li>SEO Optimization</li>
+                <li>Consultation & Coaching</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section-content">
+            <h1>Contact</h1>
+            <p>Want to collaborate? I'm always open to new projects and opportunities. Feel free to send me a message!</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Tiyash Kumar Ghosh. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(45deg, #FF6F61, #FFC107, #4CAF50, #2196F3, #9C27B0);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: #fff;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #FFC107;
+}
+#home {
+    background: linear-gradient(120deg, #FF6F61, #FF4081);
+    padding: 100px 20px;
+}
+#home h1 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: bold;
+}
+#home p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+.cta-button {
+    padding: 15px 30px;
+    background-color: #FFC107;
+    color: #fff;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.cta-button:hover {
+    background-color: #FF5722;
+    transform: scale(1.05);
+}
+#about {
+    background: linear-gradient(120deg, #2196F3, #673AB7);
+    color: #fff;
+}
+.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.bio img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.bio div {
+    max-width: 500px;
+    text-align: left;
+}
+.bio div p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+#skills {
+    background: linear-gradient(135deg, #00BCD4, #4CAF50);
+    padding: 80px 20px;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill-item {
+    flex: 1 1 200px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.skill-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+.skill-level {
+    height: 100%;
+    background-color: #FF4081;
+    border-radius: 10px;
+}
+#projects {
+    background: linear-gradient(135deg, #FF9800, #FF5722);
+    color: #fff;
+}
+.project-item {
+    margin-bottom: 40px;
+}
+.project-item h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.project-item p {
+    font-size: 1.2em;
+}
+.project-item a {
+    font-size: 1.2em;
+    color: #FFC107;
+    transition: color 0.3s ease;
+}
+.project-item a:hover {
+    color: #FF5722;
+}
+#testimonials {
+    background: linear-gradient(135deg, #9C27B0, #673AB7);
+    padding: 80px 20px;
+}
+.testimonial-item {
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 1.3em;
+}
+.testimonial-item p {
+    color: #FFF;
+}
+.testimonial-item strong {
+    color: #FFC107;
+}
+#experience {
+    background: linear-gradient(135deg, #009688, #00BCD4);
+    padding: 80px 20px;
+}
+.experience-item {
+    margin-bottom: 30px;
+}
+.experience-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.experience-item p {
+    font-size: 1.2em;
+}
+#services {
+    background: linear-gradient(135deg, #FFEB3B, #FF9800);
+    padding: 80px 20px;
+}
+#services ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#services li {
+    background-color: #blue;
+    padding: 20px 30px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+#services li:hover {
+    transform: scale(1.05);
+}
+#contact {
+    background: linear-gradient(135deg, #FF5722, #E91E63);
+    padding: 80px 20px;
+    color: #fff;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 80%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1.1em;
+}
+form button {
+    background-color: #FFC107;
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+form button:hover {
+    background-color: #FF5722;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+}
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
